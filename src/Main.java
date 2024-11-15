@@ -59,7 +59,7 @@ public class Main {
         System.out.println("Conteúdos Inscritos  "+devJoao.getNome()+":" + devJoao.getConteudosInscritos());
         System.out.println("Conteúdos Concluidos "+devJoao.getNome()+":" + devJoao.getConteudosConcluidos());
         System.out.println("XP:" + devJoao.calcularTotalXp());
-      scanner.closed()
+      scanner.closed();
     }
 
 }
